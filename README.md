@@ -1,47 +1,73 @@
-# MERN E-COMMERCE TUTORIAL
+# E-commerce Grocery online delivery Project 
+# Description
+Grocery ecommerce is a online platform from where anyone can buy products related to grocery items. Users can see all the display products in a product category. Users can see on the basis of number of rating, product categories or search product related to any items 
+Users can click on any product to get more information including pricing, number of reviews and rating. Users can select items and add them to their shopping cart. 
+From shopping cart, they further move to check out payment or remove product from shopping cart. Admin create products, update and delete.Admin see the number of users, number of orders and number of reviews etc.
+# Features
+Admin features:
+- Login and register
+- forget password and reset
+- Update profile
+- create product, update, delete
+- create category
+- see number of rating through product id
+- see number of orders,users
+- see total number of product available in stock
+- make any user from user to admin to access admin dashboard
+- update order status such as processing, shipped, delivered
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+Users features:
+- Login and register
+- forget password and reset
+- Update profile
+- see number of rating
+- see number of orders
+- see order status
+- see total number of product available in stock
+- gives the feedback of the product
 
-# Prerequisite
+# Brief Process Flow
+This is very simple in use first go on this URL.If you want to buy any product, then you need to register. After registering, you go on product page and see the number of products available. In case if product is not showing, then you search product or apply filter for category. After choosing product, see the number of rating, reviews and add to cart. From cart, If you want to cancel,then remove product from cart. Otherwise proceed to payment check out and fill address and proceed next for payment. There are many popup button available in user profile such as order, cart, logout, profile etc. User can update profile by clicking profile button, see the order status by clicking order button, check product available in cart.
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
 
-# Install Dependencies
+# Technologies, Libraries and Components Used
+Technologies and Libraries used:
+- Html
+- Css
+- JavaScript
+- React js
+- Node js
+- Express js
+- Mongodb
+- Material-ui/icons
+- Axios
+- Overlay-navbar
+- React-router-dom
+- Redux
+- React-js-pagination
+- Bcriptjs
+- Cloudinary
 
-**For Backend** - `npm i`
+Components Used:
+- Header
+- Home
+- Footer
+- ProductCart
+- About
+- Contact
+- Loader
+- NotFound
+- Dashboard
+- ProductList
+- NewProduct
+- OrderStatus
+- Sidebar
+- ProcessStatus
+- UpdateUser
+- UserList
+- ProductReview
+- Cart
+- CartItem
 
-**For Frontend** - `cd frontend` ` npm i`
-
-## Env Variables
-
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
-
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
-
-## Author
-
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+# Author
+- [@kanchankumar](https://github.com/webKanchan1234)
